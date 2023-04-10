@@ -1,0 +1,29 @@
+{
+  "name": "business-website",
+  "version": "1.0.0",
+  "description": "this is a sample and a basic business website which we will be going to show our clients",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js -e js,hbs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahsankamalfarooq/business-website.git"
+  },
+  "keywords": [
+    "business",
+    "website"
+  ],
+  "author": "ahsan-khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahsankamalfarooq/business-website/issues"
+  },
+  "homepage": "https://github.com/ahsankamalfarooq/business-website#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3",
+    "nodemon": "^2.0.22"
+  }
+}
